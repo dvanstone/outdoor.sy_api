@@ -27,7 +27,7 @@ class Customer
             else
                 customerInfo = input.split(',')
             end
-            
+
             Customer.new(customerInfo[0] +" "+ customerInfo[1], customerInfo[2], Vehicle.new(customerInfo[3], customerInfo[4], customerInfo[5]))
         end
     end

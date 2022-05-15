@@ -1,14 +1,18 @@
 # README
 
-* Ruby version
-    * 3.1.2p20
+## System dependencies
+* ruby (3.1.2p20)
+* rails (7.0.3)
+* rspec (testing)
 
-* System dependencies
-    * rspec (testing)
+## Setup
+* install ruby (https://rubyinstaller.org/downloads/)
+* install rails ('gem install rails')
+* run 'bundle install'
 
 
-* How to run the test suite
-    * run 'bundle exec rspec'
+### How to run the test suite
+* run 'bundle exec rspec'
 
 ### How to run locally via outdoor.sy_client repo
 * run 'rails s'

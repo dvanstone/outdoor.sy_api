@@ -6,26 +6,25 @@
 * System dependencies
     ** rspec (testing)
 
-* Configuration
-
-* Database creation
-
-* Database initialization
 
 * How to run the test suite
     ** run 'bundle exec rspec'
 
-* ...
+* How to run locally
+    ** run 'rails s'
 
-title: Outdoor.sy API
-baseUri: http://localhost:3000/
+# title:
+Outdoor.sy API
+# baseUri:
+http://localhost:9000/
+
 /customer:
     post:
         description: Generate object with customer and vehicle info
         headers:
-            Content-Type: application/json
+            n/a (defaults in Postman)
         body:
-            file:
+            file: plain text file
 
 
         responses:
@@ -52,3 +51,7 @@ baseUri: http://localhost:3000/
                             }
                         }
                     }
+            400:
+                "Improperly Formatted File"
+            418:
+                "I am a teapot"

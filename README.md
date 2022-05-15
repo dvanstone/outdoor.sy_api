@@ -32,7 +32,12 @@
             * file must be of content-type 'text/plain' or 'text/csv'
     * auto-generated headers should be fine
 
-
+#### Assumptions
+* file structure...
+    * no header row
+    * no footer row
+    * row structure...
+        * first name,last name,email,vehicle type,vehicle name,vehicle length
 
 # Title:
 Outdoor.sy API

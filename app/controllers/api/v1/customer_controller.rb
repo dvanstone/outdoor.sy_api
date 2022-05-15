@@ -3,6 +3,9 @@ class Api::V1::CustomerController < ApplicationController
     require "Customer"
 
     # POST /api/v1/customer
+
+    # File row structure:
+        # first name,last name,email,vehicle type,vehicle name,vehicle length
     def create
         if params["customerFile"]
             if params["customerFile"].content_type == 'text/plain' || params["customerFile"].content_type == 'text/csv'

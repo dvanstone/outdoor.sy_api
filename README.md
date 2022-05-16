@@ -85,3 +85,16 @@ responses:
     418:
         "I am a teapot"
 ```
+
+## Improvement Ideas
+* more rspec tests
+* way to validate file structure
+   * working under the assumption that the user will be using the API endpoint in good faith, at the moment
+* move stepping through file lines out of controller?
+   * preference call, but I prefer lightweight controllers
+* can add DB access
+   * had connection to sqlite3, but perhaps postgres
+* verification of email string
+* skip line instead of returning "" from Customer.createFromString function
+   * could return feedback to client calling API that reflects this
+* comb through config/environments to tinker with caching   
